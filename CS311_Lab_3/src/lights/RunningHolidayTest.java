@@ -9,7 +9,7 @@ public class RunningHolidayTest {
 	
 	@Test public void checkLength() {
 	RunningHolidayLights hl = new RunningHolidayLights(10);
-	int length= hl.urt; 
+	int length= 10; 
 	boolean b = (length==hl.getLength() )? true: false; 
 	Assert.assertTrue(b);
 	}
@@ -22,14 +22,7 @@ public class RunningHolidayTest {
 			hl.list.get(i).randomChange();
 			if(hl.list.get(i).isOn()!= false)
 				b=true;
-			
-		}
-		 
+		} 
 		Assert.assertTrue(b);
-		
-		
-
 	}
- 
-
 }

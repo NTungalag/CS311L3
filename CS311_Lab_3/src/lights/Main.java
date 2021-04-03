@@ -6,7 +6,7 @@ public class Main {
 
 		// Create HolidayLights
 		HolidayLights hl = new RunningHolidayLights(12);
-		HolidayLights mhl = new MyHolidayLights(12); 				// Myholidaylight  
+		HolidayLights mhl = new MyHolidayLights(12); 				// holidaylight  
 		
 		// Create and show HolidayLightsWindow
 		HolidayLightsWindow frame = new HolidayLightsWindow(hl);
